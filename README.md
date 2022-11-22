@@ -3,7 +3,7 @@ Essa página faz parte do 7 Days of Code da Alura. Aqui foi solicitado uma landi
 A sugestão era estruturar a página em HTML e CSS, porém, optei por utilizar SCSS, tendo em vista que essa é uma forma de melhorar a legibilidade do estilo da página.
 
 ## O que foi utilizado:
-- HMTL;
+- HTML;
 - SCSS.
 
 ## Funcionalidades da página:
