@@ -1,6 +1,6 @@
 # Sobre o que é o projeto?
 Essa página faz parte do 7 Days of Code da Alura. Aqui foi solicitado uma landing page de contratação baseado em um projeto previamente estruturado no Figma.
-A sugestão era estruturar a página em HTML e CSS, porém, optei por utilizar SCSS, tento dem vista que essa é uma forma de melhorar a legibilidade do estilo da página.
+A sugestão era estruturar a página em HTML e CSS, porém, optei por utilizar SCSS, tendo em vista que essa é uma forma de melhorar a legibilidade do estilo da página.
 
 ## O que foi utilizado:
 - HMTL;
