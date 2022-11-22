@@ -1,0 +1,269 @@
+@use 'variables' as v;
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font: 100% v.$font-stack;
+    color: v.$primary-color;
+    font-size: 1.1rem;
+};
+navbar {
+    width: 100%;
+    height: 5rem;
+    padding: 2rem;
+    margin: auto;
+    font: 100% v.$font-stack;
+    color: v.$primary-color;
+    font-size: 1rem;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+    .logo {
+            margin: 1rem;
+            padding: 1rem;
+            margin-left: 1rem;
+            align-self: center;
+        }
+        img {
+            padding: 0.5rem;
+        }
+        ul {
+            display: flex;
+            flex-direction: row;
+            text-decoration: none;
+            list-style: none;
+            margin: auto;
+        }
+        div{
+            align-self: center;
+        }
+        a {
+            text-decoration: none;
+            padding: 1rem;
+            color: v.$primary-color;
+        }
+        button {
+            background-color: v.$highlight-color;
+            color: v.$white;
+            height: 2.3rem;
+            width: 7rem;
+            border-radius: 0.7rem;
+            border: none;
+            margin: auto;
+        }
+}
+.about-us{
+    width: 90%;
+    margin: auto;
+    padding: 6rem 0 6rem 0;
+    text-align: center;
+    justify-content: center;
+    h4{
+        font-size: 1rem;
+        font-weight: 600;
+        color: v.$highlight-color;
+        margin-bottom: 2rem;
+    }
+    h2{
+        font-size: 3rem;
+        font-weight: 600;
+        color: v.$primary-color;
+        margin-bottom: 2rem;
+    }
+    p{
+        width: 50%;
+        margin: auto;
+        color: v.$secondary-color;
+        font-size: 1.2rem;
+        font-weight: 400;
+    }
+}
+.metrics{
+    width: 90%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 0 6rem 0;
+    div{
+        width: 17.5rem;
+        margin-right: 2rem;
+        padding: 0.5rem;
+        h1{
+            font-size: 4rem;
+            font-weight: 600;
+            color: v.$highlight-color;
+            margin-bottom: 0.8rem;
+        }
+        h4{
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: v.$primary-color;
+            margin-bottom: 0.8rem;
+        }
+        p{
+            font-size: 1rem;
+            font-weight: 400;
+            color: v.$secondary-color;
+        }
+    }
+}
+.vacant{
+    width: 90%;
+    margin: auto;
+    padding: 6rem 0 6rem 0;
+    text-align: center;
+    justify-content: center;
+    h4 {
+        background-color: rgba(142, 36, 36, 0.05);
+        width: 10rem;
+        padding: 0.2rem 0.9rem;
+        border-radius: 1rem;
+        font-size: 1rem;
+        font-weight: 600;
+        color: v.$highlight-color;
+        margin: auto;
+        margin-bottom: 1rem;
+        }
+    h3 {
+        font-size: 2.1rem;
+        font-weight: 600;
+        color: v.$primary-color;
+        margin: auto;
+        margin-bottom: 1rem;
+        }
+    p {
+        width: 50%;
+        margin: auto;
+        color: v.$secondary-color;
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-bottom: 4rem;
+        }
+    img{
+        width: 75%;
+    }
+}
+.job{
+    width: 48rem;
+    margin: auto;
+    padding: 0 0 4rem 0;
+    justify-content: center;
+    h4{
+        font-size: 1.1rem;
+        font-weight: 500;
+        margin-bottom: 2rem;
+        color: v.$primary-color;
+    }
+    .description{
+        display: flex;
+        flex-direction: column;
+        gap: 1.5rem;
+        padding: 2rem 2.5rem 2rem;
+        border: 1px solid #EAECF0;
+        border-radius: 1rem;
+        color: v.$primary-color;
+        font-size: 1rem;
+        font-weight: 500;
+        margin-bottom: 1.5rem;
+        h3{
+            font-size: 1.1rem;
+            font-weight: 500;
+        }
+        .info{
+            font-size: 1rem;
+            margin-right: 1.5rem;
+            span{
+                margin-right: 1.5rem;
+            }
+        }
+    }
+}
+.testimony{
+    width: 80%;
+    margin: auto;
+    padding: 6rem 0 6rem 0;
+    text-align: center;
+    justify-content: center;
+    background-color: rgba(142, 36, 36, 0.05);
+    border-radius: 1rem;
+    h4 {
+        font-size: 1rem;
+        font-weight: 600;
+        color: v.$highlight-color;
+        margin-bottom: 2rem;
+        }
+    p {
+        font-size: 2.1rem;
+        font-weight: 500;
+        color: v.$primary-color;
+        margin: auto;
+        margin-bottom: 2rem;
+        padding: 0 6rem 0 6rem;
+        }
+    .profile{
+        justify-content: center;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        img{
+            width: 3.5rem;
+            margin: auto;
+            margin-bottom: 1rem;
+        }
+        .nick{
+            font-size: 1rem;
+            font-weight: 500;
+        }
+        .occupation{
+            font-size: 0.9rem;
+            font-weight: 400;
+        }
+    }
+}
+.footer{
+    width: 90%;
+    margin: auto;
+    padding: 6rem 0 6rem 0;
+    text-align: center;
+    justify-content: center;
+    h2{
+        font-size: 2.1rem;
+        font-weight: 600;
+        color: v.$primary-color;
+        margin: auto;
+        margin-bottom: 1rem;
+    }
+    p {
+        margin: auto;
+        color: v.$secondary-color;
+        font-size: 1.2rem;
+        font-weight: 400;
+        margin-bottom: 2.5rem;
+    }
+    input{
+        width: 22.5rem;
+        height: 2.4rem;
+        border: 1px solid #EAECF0;
+        border-radius: 8px;
+        padding: 0.9rem 1rem;
+        margin-bottom: 2rem;
+    }
+    button {
+        background-color: v.$highlight-color;
+        color: v.$white;
+        height: 2.4rem;
+        width: 7rem;
+        border-radius: 0.7rem;
+        border: none;
+        margin: auto;
+        }
+    .foot{
+        font-size: 1rem;
+        font-weight: 400;
+        }
+}
